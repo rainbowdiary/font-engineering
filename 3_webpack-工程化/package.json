@@ -6,7 +6,9 @@
   "scripts": {
     "start": "webpack-dev-server --config ./config/webpack.dev.js",
     "serve": "webpack --config ./01.HMR/src/js/index.js",
-    "build": "webpack --config ./config/webpack.prod.js"
+    "build": "webpack --config ./config/webpack.prod.js",
+    "debug": "webpack --verbose --debug --color --config  ./config/webpack.prod.js",
+    "test": "webpack"
   },
   "keywords": [],
   "author": "",
